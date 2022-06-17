@@ -1,0 +1,217 @@
+/* цвет логотипа 1 части #2196F3
+2 часть #000000 
+
+ОСНОВНОЙ ЦВЕТ навигация, контакты, 2,3 заголовка #212121
+при наведении #2196F3
+
+цвет телефона и параграфов #757575
+
+заголовок и кнопка, 2 часть логотива в футере #FFFFFF
+
+контакты в футере color: rgba(255, 255, 255, 0.6);
+
+
+ФОН
+шапка #FFFFFF
+1 секция и футер 2F303A
+кнопка 2196F3
+
+секция Наша команда F5F4FA
+*/
+
+:root {
+    --primary-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --nav-log-text-color: #2196F3;
+    --title-text-color: #FFFFFF;
+    --but--team-color: #F5F4FA;
+    --foot-title-bg-color: #2F303A;
+    --logo-color: #000000;
+}
+
+body {
+    background-color: var(--title-text-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* header */
+
+.logo {
+    color: var(--logo-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+span {
+    color: var(--nav-log-text-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--nav-log-text-color);
+}
+
+.site-cont .link {
+    color: var(--paragraph-text-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-cont .link:hover,
+.site-cont .link:focus {
+    color: var(--nav-log-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--nav-log-text-color);
+}
+
+/* Title */
+
+.title {
+    background: var(--foot-title-bg-color);
+}
+
+.title-hero {
+    color: var(--title-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Section */
+
+.work-quality .quality {
+    color: var(--paragraph-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.head-quality {
+    text-transform: uppercase;
+}
+
+.name-project {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+/* Button */
+
+.button-order {
+    background-color: var(--nav-log-text-color);
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.button-filter {
+    background-color: var(--but--team-color);
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--nav-log-text-color);
+    color: var(--title-text-color);
+}
+
+/* Team */
+.team {
+    background-color: var(--but--team-color);
+}
+
+.team-work .job {
+    color: var(--paragraph-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.person {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+
+/* Footer */
+
+.foot {
+    background: var(--foot-title-bg-color);
+}
+
+.foot-web {
+    color: var(--title-text-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.foot-adress .adress {
+    color: var(--title-text-color);
+}
+.foot-adress .footer-contact {
+    color: var(--footer-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
