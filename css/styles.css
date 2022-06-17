@@ -82,13 +82,16 @@ span {
     color: var(--nav-log-text-color);
 }
 
-.site-cont .link {
-    color: var(--paragraph-text-color);
-
+.site-cont {
     font-family: inherit;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.site-cont .link {
+    color: var(--paragraph-text-color);
+
 }
 
 .site-cont .link:hover,
@@ -122,7 +125,6 @@ span {
 .work-quality .quality {
     color: var(--paragraph-text-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
 }
@@ -177,7 +179,6 @@ span {
 .team-work .job {
     color: var(--paragraph-text-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 }
@@ -211,7 +212,11 @@ span {
 .foot-adress .footer-contact {
     color: var(--footer-text-color);
 
+}
+
+.foot-adress .site-cont {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em
 }
