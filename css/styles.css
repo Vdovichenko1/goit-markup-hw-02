@@ -91,7 +91,7 @@ span {
 
 .site-cont .link {
     color: var(--paragraph-text-color);
-
+    text-decoration: none;
 }
 
 .site-cont .link:hover,
@@ -145,6 +145,7 @@ span {
     background-color: var(--nav-log-text-color);
     color: var(--title-text-color);
 
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -159,6 +160,7 @@ span {
     background-color: var(--but--team-color);
     color: var(--primary-text-color);
 
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
